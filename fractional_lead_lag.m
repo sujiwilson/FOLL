@@ -9,9 +9,9 @@ den_d = [1 1];
 Gd = tf(num_d, den_d);
 
 % optimizaed Fractional Lead-Lag Controller Parameters
-alpha = 0.5;
+alpha = 0.33;
 beta = 0.1;
-T1 = 0.1;
+T1 = 0.5;
 T2 = 0.01;
 
 % Fractional Lead-Lag Controller Transfer Function
